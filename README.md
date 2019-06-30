@@ -24,4 +24,4 @@ design patterns in all languages
 1. 미디에이터 패턴
 1. 메멘토 패턴
 1. 프로토타입 패턴
-1. 비짙 패턴
+1. 비지터 패턴
