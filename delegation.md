@@ -9,3 +9,35 @@
 한 클래스에서 필요한 기능을 delegate의 함수에 위임하여 구현할 수 있다.
 
 구현 클래스는 프로토콜에 따라 메소드를 구현한다.
+
+[Delegation Pattern](http://seorenn.blogspot.com/2015/01/swift-delegation-pattern.html)
+
+```swift
+protocol BlahProtocol {
+    func blah(blahObject: BlahClass)
+}
+
+class BlahClass {
+    var delegate: BlahProtocol?
+
+    func something() {
+        self.delegate?.blah(self)
+    }
+}
+
+class CustomClass: BlahProtocol {
+    let blah = BlahClass()
+
+    init() {
+        self.blah.delegate = self       
+        self.blah.something()
+    }
+    
+    func blah(blahObject: BlahClass) {
+        println("Calling with blah protocol")
+    }
+}
+
+let cc = CustomClass()
+// 콘솔에 "Calling with blah protocol" 이 찍힌다.
+```
