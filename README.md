@@ -1,7 +1,9 @@
 # design-patterns
 design patterns in all languages
 
-1. 스트래티지 패턴
+## Patterns
+
+1. 스트래티지 패턴: Swift
 1. 델리게이트 패턴
 1. 옵저버 패턴
 1. 데코레이터 패턴
@@ -25,3 +27,7 @@ design patterns in all languages
 1. 메멘토 패턴
 1. 프로토타입 패턴
 1. 비지터 패턴
+
+## 디자인 원칙
+
+1. 상속보다는 구성: Strategy
