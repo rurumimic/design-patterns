@@ -1,6 +1,6 @@
 //
-//  Strategy.swift
-//  Swift
+//  main.swift
+//  Strategy
 //
 //  Created by Dohyun Kim on 23/07/2019.
 //
