@@ -1,6 +1,7 @@
 # Observer pattern
 
-[Wikipedia: Observer pattern](https://en.wikipedia.org/wiki/Observer_pattern)
+- [Wikipedia: Observer pattern](https://en.wikipedia.org/wiki/Observer_pattern)
+- [Pseudocode](https://refactoring.guru/design-patterns/observer#pseudocode)
 
 ## 쓰임
 
