@@ -4,11 +4,13 @@ design patterns in all languages
 ## Patterns
 
 1. 스트래티지 패턴: Swift
-1. 델리게이트 패턴
 1. [옵저버](Documents/observer.md)
 1. [MVC](Documents/mvc.md)
+1. [팩토리 메소드](Documents/factory.method.md)
+1. [추상 팩토리](Documents/abstract.factory.md)
+
+1. 델리게이트 패턴
 1. 데코레이터 패턴
-1. 팩토리 패턴
 1. 싱글턴 패턴
 1. 커맨드 패턴
 1. 어댑터 패턴
